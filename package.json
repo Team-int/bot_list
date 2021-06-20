@@ -5,7 +5,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "lint": "yarn prettier --write ."
   },
   "dependencies": {
     "expo": "~41.0.1",
@@ -13,12 +14,19 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "tailwind-rn": "^3.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@types/node": "^15.12.4",
     "@types/react": "~16.9.35",
     "@types/react-native": "~0.63.2",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.29.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "2.3.1",
     "typescript": "~4.0.0"
   },
   "private": true
